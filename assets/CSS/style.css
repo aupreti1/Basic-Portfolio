@@ -1,6 +1,87 @@
+* {
+  box-sizing: boarder border-box;
+}
+
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
 header {
     padding: 20px;
     margin-bottom: 20px;
-    color: #333;
-    background: #FFA500;
+    background: #4aaaa5;
+    color: #eee;
+    font-weight: bold;
+    font-size: 20px;
   }
+
+  h1 {
+    text-align: left;
+    color: #4aaaa5;
+    font-family: Times;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 2px;
+  }
+  
+  #relative {
+    position: relative;
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    background: #eee;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  footer {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #4aaaa5;
+  }
+
+  #contact{
+    text-align: left;
+    color: #4aaaa5;
+    font-family: Times;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
+  
