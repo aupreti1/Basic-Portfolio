@@ -22,7 +22,7 @@ h4 {color:#ffffff;
 
 header {
     background: #ffffff;
-    position: fixed;
+    position: absolute;
     border: 1px solid #cccccc;
     width: 100%;
     left:0;
@@ -63,6 +63,8 @@ nav {
   img {
     padding: 10px;
     float: left;
+    height: 200px;
+    Width: 200px;
   }
 
   #about {
@@ -110,8 +112,6 @@ nav {
     width: 100%; 
     padding: 5px;  
     border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 6px; 
     resize: vertical 
@@ -134,3 +134,34 @@ nav {
     padding: 8px;
   } 
    
+  #portfoliobox {
+    padding: 20px;
+    position: absolute;
+    left: 230px;
+    top: 100px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    color:#777777;
+    width: 750px;
+    overflow: auto;
+    height:auto;
+    clear: both;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 40%
+  }
+
+  .centered {
+    position: absolute;
+    top: 70%;
+    left: 35.5%;
+    transform: translate(-50%, -50%);
+    width: 64%;
+    padding: 10px;
+    background-color:#4aaaa5;
+  } 
